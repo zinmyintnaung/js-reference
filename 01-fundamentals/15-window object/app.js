@@ -30,10 +30,12 @@ val = window.scrollX;
 
 // Location Object
 val = window.location;
+console.log(val);
 val = window.location.hostname;
 val = window.location.port;
 val = window.location.href;
 val = window.location.search;
+
 
 // Redirect
 //window.location.href = 'http://google.com';
@@ -52,8 +54,7 @@ val = window.navigator.appVersion;
 val = window.navigator.userAgent;
 val = window.navigator.platform;
 val = window.navigator.vendor;
+
 val = window.navigator.language;
 
 
-
-console.log(val);
