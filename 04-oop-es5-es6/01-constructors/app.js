@@ -16,4 +16,6 @@ function Person(name, dob) {
 // console.log(john.age);
 
 const brad = new Person('Brad', '9-10-1981');
+console.log(brad);
+console.log(brad.birthday);
 console.log(brad.calculateAge());
