@@ -27,7 +27,8 @@ function loadData(){
         //console.log('READYSTATE', xhr.readyState);
 
         if(this.status === 200 && this.readyState === 4){
-            console.log(this.responseText);
+            //console.log(this.responseText);
+            document.getElementById('output').innerHTML = `<h1>${this.responseText}</h1>`;
         }
     }
 
