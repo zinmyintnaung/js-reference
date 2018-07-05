@@ -16,7 +16,8 @@ class UI{
             desc.push(w.main);
         });
         this.description.textContent = desc.join(', ');
-        this.wstring.textContent = weather.main.temp;
+        const tempC = (weather.main.temp) - 273.15;
+        this.wstring.textContent = tempC.toFixed(2) + 'C';
         this.humidity.textContent = weather.main.humidity;
     }
 }
